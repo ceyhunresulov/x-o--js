@@ -1,0 +1,78 @@
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: darkslategrey;
+}
+.cells {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 300px;
+  height: 300px;
+}
+.cell-item {
+  border: 2px solid white;
+  list-style: none;
+  width: 32%;
+  height: 32%;
+  font-size: 3rem;
+  text-align: center;
+  display: block;
+  align-items: center;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.active {
+  background-color: cadetblue;
+}
+
+.player-box {
+  margin-bottom: 3rem;
+}
+.btn {
+  padding: 4px 20px;
+  box-sizing: border-box;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.player-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reset-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reset-btn {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: brown;
+  padding: 4px 20px;
+  border-radius: 5px;
+  color: white;
+}
+.worning {
+  font-size: 2rem;
+  color: cadetblue;
+  margin: 1rem 0;
+}
+.title{
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
